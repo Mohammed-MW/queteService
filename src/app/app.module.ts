@@ -1,16 +1,18 @@
-import { NgModule } from '@angular/core';
+import { NgModule, } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CocktailListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
